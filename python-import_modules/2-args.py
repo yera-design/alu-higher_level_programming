@@ -8,6 +8,5 @@ if __name__ == "__main__":
         print("1 argument:")
     else:
         print(f"{argc} arguments:")
-    
     for i in range(1, len(sys.argv)):
         print(f"{i}: {sys.argv[i]}")
