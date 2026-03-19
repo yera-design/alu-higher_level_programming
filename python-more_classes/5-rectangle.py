@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Defines Rectangle with deletion message."""
 class Rectangle:
     """Represents a rectangle."""

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Defines a Rectangle with width and height."""
 class Rectangle:
     """Represents a rectangle."""

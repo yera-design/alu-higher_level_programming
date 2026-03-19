@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Defines Rectangle with custom print symbol."""
 class Rectangle:
     """Represents a rectangle."""
