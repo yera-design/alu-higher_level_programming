@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""Fetches a URL and displays the response body information."""
+"""Python script that fetchs."""
+
 
 import requests
-
 if __name__ == "__main__":
-    response = requests.get("https://alu-intranet.hbtn.io/status")
-
+    requ = requests.get('https://intranet.hbtn.io/status')
     print("Body response:")
-    print("\t- type: {}".format(type(response.text)))
-    print("\t- content: {}".format(response.text))
+    print("\t- type: {}".format(type(requ.text)))
+    print("\t- content: {}".format(requ.text))
