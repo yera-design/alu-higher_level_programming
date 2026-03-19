@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Fetches a URL and displays the response body information."""
+
 import requests
 
 if __name__ == "__main__":
