@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module that defines a Square with getter and setter."""
 
+
 class Square:
     """Represents a square with controlled size access."""
 
