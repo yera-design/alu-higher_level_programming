@@ -4,14 +4,8 @@
 import requests
 
 if __name__ == "__main__":
-    try:
-        response = requests.get("https://alu-intranet.hbtn.io/status")
-        content = response.text
+    response = requests.get("https://alu-intranet.hbtn.io/status")
 
-        print("Body response:")
-        print("\t- type: {}".format(type(content)))
-        print("\t- content: {}".format(content))
-    except requests.RequestException:
-        print("Body response:")
-        print("\t- type: <class 'str'>")
-        print("\t- content: ")
+    print("Body response:")
+    print("\t- type: {}".format(type(response.text)))
+    print("\t- content: {}".format(response.text))
